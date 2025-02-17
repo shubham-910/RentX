@@ -16,8 +16,8 @@ export default defineConfig({
     globals: true,
   },
   define: {
-    __API_HOST__: `"http://localhost:8080"`,
-    __STRIPE_PUBLISHABLE_KEY__: `"pk_test_51OCRv0C7CYgP0DDWVpK4HplpoFYl8LR0b778BqK9XQUWMzA4KTA3yOMlK4iHSistVE308gz3SadUnUWiSRKYtTOK00R54nHVpA"`,
-    __STRIPE_SECRET_KEY__: `"sk_test_51OCRv0C7CYgP0DDWr4UgBuOVlnVpUDkM8uLk60FRiwX2yUp9vOZEoHYrS3N1980z2Umt8UNV5bXOJqKQslEHPglu00Ke73HKjU"`,
+    __API_HOST__: `YOUR API HOST NAME`,
+    __STRIPE_PUBLISHABLE_KEY__: `YOUR STRIPE PUBLISHED KEY`,
+    __STRIPE_SECRET_KEY__: `YOUR STRIPE SECRET KEY`,
   },
 });
